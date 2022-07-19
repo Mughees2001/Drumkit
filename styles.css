@@ -8,6 +8,8 @@ h1 {
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
+  margin-bottom:70px;
+  margin-top:130px;
 
 }
 
@@ -76,6 +78,16 @@ footer {
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 10px;
+  margin: 30px;
   background-color: white;
+}
+
+@media only screen and (max-width:1400px){
+  .drum{
+    width:70%;
+  }
+  h1{
+    font-size:7rem;
+  }
+  
 }
